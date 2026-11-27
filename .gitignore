@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Model weights (download locally; do not commit)
+models/
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+
+# Generated outputs
+outputs/
+logs/
+*.log
+
+# Web / Grimace install artifacts
+web/node_modules/
+web/dist/
+grimace-main/node_modules/
+grimace-main/dist/
+grimace-main/demo/node_modules/
+grimace-main/demo/dist/
+
+# Secrets
+.env
+web/.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Rendered media
+*.mp4
+*.wav
